@@ -1,0 +1,12 @@
+body {
+  background-color: #000; /* Tamamen siyah arka plan */
+  background-image:
+    radial-gradient(circle, rgba(0, 200, 200, 0.4) 20%, transparent 70%), /* Yeşilimsi mavi 1 */
+    radial-gradient(circle at top right, rgba(50, 255, 200, 0.3) 15%, transparent 75%), /* Yeşilimsi mavi 2 */
+    radial-gradient(circle at bottom left, rgba(0, 150, 255, 0.35) 25%, transparent 65%); /* Daha maviye dönük */
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px); /* Arka plan bulanıklık efekti */
+  margin: 0; /* Sayfanın kenarlarındaki varsayılan boşlukları kaldır */
+  overflow: hidden; /* Olası kaymaları önle */
+}
