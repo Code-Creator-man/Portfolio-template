@@ -22,6 +22,7 @@ header{
     color: white;
     padding: 20px;
     text-align: center;
+    border: 3px solid #000;
 }
 nav ul {
     list-style: none;
