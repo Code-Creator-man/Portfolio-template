@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Mono+One&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+img {
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
+
+nav {
+    padding: 20px 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+    gap: 32px;
+    border: 1px solid #2c2a2a;
+    position:relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+}
+
+nav .logo {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .navLinks {
+    justify-content: space-between;
+    padding: 0, 0, 10px, 10px;
+    gap: 23px;
+    display: flex;
+}
+
+nav .navLinks a {
+    font-size: 14px;
+    color: #606060;
+    font-weight: 600;
+}
+nav .navLinks a:hover{
+    color: #fff;
+    transition: 0.02s ease;
+}
+
+nav button {
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: #1f6feb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav button:hover {  
+
+    background-color: #1a5fc8;
+}
